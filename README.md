@@ -5,6 +5,8 @@ Arduino communication library for Peacefair PZEM-004T-10A and PZEM-004T-100A v3.
 
 This fork has a constructor tweak to allow multiple PZEM addressing on a HardwareSerial bus. Used to make it work with ESP32 but will work fine with others.
 
+***
+
 This module is an upgraded version of the PZEM-004T with frequency and power factor measurement features, available at the usual places. It communicates using a TTL interface over a Modbus-RTU like communication protocol but is incompatible with the older [@olehs](https://github.com/olehs) library found here: [https://github.com/olehs/PZEM004T](https://github.com/olehs/PZEM004T). I would like to thank [@olehs](https://github.com/olehs) for the great library which inspired me to write this one.
 
 #### Common issue:
