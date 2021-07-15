@@ -98,7 +98,7 @@ PZEM004Tv30::PZEM004Tv30(uint8_t receivePin, uint8_t transmitPin, uint8_t addr)
  * @param port Hardware serial to use
  * @param addr Slave address of device
 */
-PZEM004Tv30::PZEM004Tv30(HardwareSerial* port, uint8_t addr)
+PZEM004Tv30::PZEM004Tv30(HardwareSerial* port, uint8_t receivePin, uint8_t transmitPin, uint8_t addr)
 {
     port->begin(PZEM_BAUD_RATE);
     this->_serial = port;
